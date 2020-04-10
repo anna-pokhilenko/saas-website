@@ -1,7 +1,7 @@
-img {
-  max-width: 170px;
+.masthead-next {
+  text-align: right;
 }
 
-li {
-  display: inline-block;
+img {
+  width: 150px;
 }
