@@ -6,8 +6,13 @@ html {
   text-align: right;
 }
 
-img {
-  width: 150px;
+.img-worry {
+  max-width: 60%;
+  align-items: center;
+}
+
+.img-worry-assist {
+  max-width: 37%;
 }
 
 .btn-nav-style {
