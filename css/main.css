@@ -1,7 +1,77 @@
+html {
+  font-family: Poppins, sans-serif;
+}
+
 .masthead-next {
   text-align: right;
 }
 
 img {
   width: 150px;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-content-any {
+  font-weight: 900;
+  color: #fff;
+  position: absolute;
+  top: 27%;
+  left: 37%;
+  width: 100%;
+}
+
+.banner-content-t {
+  font-weight: 800;
+  color: #fff;
+  position: absolute;
+  top: 32%;
+  left: 57%;
+  width: 100%;
+}
+
+.banner-content-p {
+  font-weight: 800;
+  color: #fff;
+  position: absolute;
+  top: 38%;
+  left: 56%;
+  width: 100%;
+}
+
+.banner-content-m {
+  font-weight: 800;
+  color: #fff;
+  position: absolute;
+  top: 44%;
+  left: 55%;
+  width: 100%;
+}
+
+.banner-content-statement {
+  color: #fff;
+  position: absolute;
+  top: 53%;
+  left: 33%;
+}
+
+.action {
+  font-weight: 600;
+  position: absolute;
+  background-color: #ff854d;
+  top: 63%;
+  left: 46%;
+  border: none;
+  border-radius: 0;
+  padding: .7em 1.5em;
+}
+
+.logo {
+  z-index: 1;
+  position: absolute;
+  top: -2%;
+  left: 15%;
 }
