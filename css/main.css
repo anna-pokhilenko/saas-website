@@ -15,6 +15,18 @@ html {
   max-width: 37%;
 }
 
+.img-back1 {
+  padding-left: 9em;
+}
+
+.img-back2 {
+  padding-left: 9em;
+}
+
+figcaption {
+  color: #9b87ac;
+}
+
 .btn-nav-style {
   padding-bottom: 0;
   margin-bottom: .5em;
@@ -108,9 +120,23 @@ html {
 
 .for-you {
   background-color: #88a4b5;
-
 }
 
+.btn-bottom {
+  font-weight: 600;
+  background-color: #ff854d;
+  border: none;
+  border-radius: 0;
+  padding: .7em 1.5em;
+}
+
+.pad-r {
+  padding-right: 1em;
+}
+
+.pad-l {
+  padding-left: 1em;
+}
 
 footer {
   background-color: #ccc0b9;
