@@ -6,6 +6,8 @@ html {
   text-align: right;
 }
 
+
+
 .img-worry {
   max-width: 60%;
   align-items: center;
@@ -15,13 +17,7 @@ html {
   max-width: 37%;
 }
 
-.img-back1 {
-  padding-left: 9em;
-}
 
-.img-back2 {
-  padding-left: 9em;
-}
 
 figcaption {
   color: #9b87ac;
@@ -122,6 +118,9 @@ figcaption {
   background-color: #88a4b5;
 }
 
+
+
+
 .btn-bottom {
   font-weight: 600;
   background-color: #ff854d;
@@ -140,4 +139,23 @@ figcaption {
 
 footer {
   background-color: #ccc0b9;
+}
+
+@media only screen and (max-width: 60em) {
+
+  .order-change {
+    order: -1;
+  }
+
+  .img-large-screen {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .img-small-screen {
+    display: none;
+    overflow: hidden;
+  }
 }
