@@ -6,8 +6,6 @@ html {
   text-align: right;
 }
 
-
-
 .img-worry {
   max-width: 60%;
   align-items: center;
@@ -16,8 +14,6 @@ html {
 .img-worry-assist {
   max-width: 37%;
 }
-
-
 
 figcaption {
   color: #9b87ac;
@@ -52,8 +48,8 @@ figcaption {
   font-weight: 900;
   color: #fff;
   position: absolute;
-  top: 27%;
-  left: 37%;
+  bottom: 0;
+  left: 0;
   width: 100%;
 }
 
@@ -61,8 +57,8 @@ figcaption {
   font-weight: 800;
   color: #fff;
   position: absolute;
-  top: 33%;
-  left: 56%;
+  top: 0;
+  left: 0;
   width: 100%;
 }
 
@@ -91,6 +87,24 @@ figcaption {
   left: 34%;
 }
 
+.banner-content-why-tappy {
+  font-weight: 900;
+  color: #fff;
+  position: absolute;
+  top: 3em;
+  left: 0;
+  width: 100%;
+}
+
+.banner-content-statement-why-tappy {
+  color: #fff;
+  position: absolute;
+  bottom: 6em;
+  left: 0;
+  width: 100%;
+}
+
+
 .action {
   font-weight: 600;
   position: absolute;
@@ -118,9 +132,6 @@ figcaption {
   background-color: #88a4b5;
 }
 
-
-
-
 .btn-bottom {
   font-weight: 600;
   background-color: #ff854d;
@@ -143,8 +154,14 @@ footer {
 
 @media only screen and (max-width: 60em) {
 
+  .for-you {
+    padding: 3em;
+  }
+
   .order-change {
     order: -1;
+    text-align: left;
+    padding: 0;
   }
 
   .img-large-screen {
@@ -153,6 +170,10 @@ footer {
 }
 
 @media only screen and (min-width: 60em) {
+
+  .for-you {
+    padding: 3em;
+  }
 
   .img-small-screen {
     display: none;
