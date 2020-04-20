@@ -192,7 +192,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 25em) {
 
   .content {
     width: 465px;
