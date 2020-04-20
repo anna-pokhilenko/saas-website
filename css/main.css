@@ -125,6 +125,7 @@ figcaption {
   width: 34%;
 }
 -------------------------
+
 .business {
   background-color: #a1a1a1;
 }
@@ -189,4 +190,46 @@ footer {
     display: none;
     overflow: hidden;
   }
+}
+
+@media only screen and (min-width: 568px) {
+
+  .content {
+    width: 465px;
+  }
+  .l-table {
+    display: table;
+    vertical-align: middle;
+    height: 100%;
+    margin: auto;
+  }
+
+  .l-table-wrapper {
+    display: table-row;
+  }
+
+  .l-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 72px;
+  }
+
+  .login-modal {
+    padding: 40px;
+    background-color: #ddd;
+  }
+
+}
+
+.max-logo {
+  max-width:100px;
+}
+
+.field {
+  width: 100%;
+}
+
+.btn-sign-in {
+  width: 100%;
+  text-align: center;
 }
