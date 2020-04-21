@@ -117,7 +117,7 @@ figcaption {
 .banner-content-statement-why-tappy {
   color: #fff;
   position: absolute;
-  bottom: 70%;
+  top: 50%;
   left: 50%;
   width: 100%;
 }
@@ -197,6 +197,12 @@ footer {
   .pads {
     padding: 0;
   }
+
+  .banner-content-why-tappy {
+    font-size: 3.5832rem;
+    line-height: 4.875rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -236,11 +242,6 @@ footer {
   .login-modal {
     padding: 40px;
     background-color: #ddd;
-  }
-
-  .banner-content-why-tappy {
-    font-size: 3.5832rem;
-    line-height: 4.875rem;
   }
 
 }
