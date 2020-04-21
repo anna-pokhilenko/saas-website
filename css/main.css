@@ -263,3 +263,12 @@ footer {
   vertical-align: middle;
   text-align: center;
 }
+
+.footer-img {
+  vertical-align: middle;
+  position: relative;
+}
+
+.text-footer {
+  position: absolute;
+}
