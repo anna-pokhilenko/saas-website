@@ -99,7 +99,7 @@ figcaption {
 .banner-content-statement {
   color: #fff;
   position: absolute;
-  bottom: 0;
+  bottom: 32%;
   left: 0;
   width: 100%;
 }
@@ -125,8 +125,8 @@ figcaption {
   font-weight: 600;
   position: absolute;
   background-color: #ff854d;
-  top: 63%;
-  left: 46%;
+  top: 70%;
+  left: 50%;
   border: none;
   border-radius: 0;
   padding: .7em 1.5em;
@@ -189,6 +189,9 @@ footer {
     padding: 0;
   }
 
+  .img-large-screen {
+    display: none;
+  }
 
   .pads {
     padding: 0;
@@ -232,10 +235,6 @@ footer {
   .login-modal {
     padding: 40px;
     background-color: #ddd;
-  }
-
-  .background-small {
-    background-position: center -50px;
   }
 
 }
