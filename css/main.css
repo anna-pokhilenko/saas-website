@@ -189,9 +189,6 @@ footer {
     padding: 0;
   }
 
-  .img-large-screen {
-    display: none;
-  }
 
   .pads {
     padding: 0;
@@ -235,6 +232,10 @@ footer {
   .login-modal {
     padding: 40px;
     background-color: #ddd;
+  }
+
+  .background-small {
+    background-position: center -50px;
   }
 
 }
