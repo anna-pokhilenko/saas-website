@@ -139,7 +139,6 @@ figcaption {
   left: 10%;
   width: 34%;
 }
--------------------------
 
 .business {
   background-color: #a1a1a1;
@@ -211,7 +210,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 25em) {
 
   .content {
     width: 465px;
