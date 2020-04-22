@@ -204,6 +204,7 @@ footer {
 
   .logo{
     width: 50%;
+    left: 5%;
   }
 
 }
@@ -222,7 +223,6 @@ footer {
   .action {
     top: 80%;
   }
-
 
 }
 
