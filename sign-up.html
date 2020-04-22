@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Sign Up</title>
+  <title>Sign In</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -11,40 +11,41 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 
-  <body>
+<body>
 
-
-    <main>
-      <div class="content l-table">
-        <div class="l-table-wrapper">
-          <div class="l-table-cell">
-            <section class="login-modal">
-              <div class="center-content">
-                <img class="img-flex max-logo push-1-2" src="images/tappy-logo.png" alt="">
+  <main>
+    <div class="content l-table">
+      <div class="l-table-wrapper">
+        <div class="l-table-cell">
+          <section class="login-modal">
+            <div class="center-content">
+              <a href="index.html">
+                <img class="img-flex max-logo push-1-2" src="images/tappy-logo.png" alt="Tappy logo">
+              </a>
+            </div>
+            <form action="https://formspree.io/pokh0006@algonquinlive.com" method="post">
+              <div class="field push-1-2">
+                <label class="text" for="email"></label>
+                <input class="milli" type="email" name="email" id="email" placeholder="Email Adress" required>
               </div>
-              <form class="" action="index.html" method="post">
-                <div class="field push-1-2">
-                  <label class="text" for="email"></label>
-                  <input class="milli" type="email" name="email" id="email" placeholder="Email Adress" required>
-                </div>
-                <div class="field push">
-                  <label class="password" for="password"><label>
-                  <input class="milli" type="password" name="password" id="password" placeholder="Password" required>
-                </div>
-                <div class="center-content center push">
-                  <a class=" btn milli btn-bottom btn-sign-in" href="#">Sign In</a>
-                </div>
-                <div class="footer center-content">
-                  <p class="milli push-0">Don't have Tappy account? <span><a href="pricing.html">Sign Up</a></span></p>
-                </div>
-              </form>
+              <div class="field push">
+                <label class="password" for="password"></label>
+                <input class="milli" type="password" name="password" id="password" placeholder="Password" required>
+              </div>
+              <div class="center-content center push">
+                <a class=" btn milli btn-bottom btn-sign-in" href="#">Sign In</a>
+              </div>
+              <div class="footer center-content">
+                <p class="milli push-0">Don't have Tappy account? <span><a href="pricing.html">Sign Up</a></span></p>
+              </div>
+            </form>
 
-            </section>
-          </div>
+          </section>
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-  </body>
+</body>
 
 </html>

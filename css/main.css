@@ -125,6 +125,7 @@ figcaption {
   font-weight: 600;
   position: absolute;
   background-color: #ff854d;
+  color: #000;
   top: 70%;
   left: 50%;
   border: none;
@@ -145,19 +146,19 @@ figcaption {
 }
 
 .business {
-  background-color: #a1a1a1;
+  background-color: #d4d4d4;
 }
 
 .fixed-price {
-  background-color: #88a4b5;
+  background-color: #b7c6d0;
 }
 
 .pay-by-customer {
-  background-color: #9b87ac;
+  background-color: #afa0bc;
 }
 
 .for-you {
-  background-color: #88a4b5;
+  background-color: #b7c6d0;
 }
 
 .btn-bottom {
@@ -290,7 +291,7 @@ footer {
 .center-t {
   vertical-align: middle;
   text-align: center;
-  background-color: #9b87ac;
+  background-color: #d4d4d4;
 }
 
 @media only screen and (min-width: 38em) {
@@ -318,10 +319,22 @@ footer {
 }
 
 .fixed-price-back {
-  border-bottom: 5px solid #000;
+  border-bottom: 3px solid #000;
 }
 
 td,
 th {
   border-bottom: 1px solid #000;
+}
+
+.current {
+  background-color: #ff854d;
+}
+
+fieldset {
+  border-top: 1px solid #9b87ac;
+}
+
+.light {
+  font-weight: lighter;
 }
