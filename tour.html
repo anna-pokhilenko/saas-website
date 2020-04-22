@@ -12,7 +12,17 @@
 </head>
 <body>
 
-  <header role="banner">
+  <ul class="skip-links">
+    <li><a href="#banner">Jump to banner</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#main">Jump to main section</a></li>
+    <li><a href="#data">Jump to We Know The Data section</a></li>
+    <li><a href="#pricing">Jump to Flexible Pricing For You section</a></li>
+    <li><a href="#about">Jump to About Us section</a></li>
+    <li><a href="#footer">Jump to footer section</a></li>
+  </ul>
+
+  <header role="banner" id="banner" tabindex="0">
     <div class="grid grid-middle gutter-1-2">
       <div class="unit [ xs-1 m-1-2 l-1-5 ]">
         <a class="logo" href="index.html">
@@ -20,7 +30,7 @@
         </a>
       </div>
 
-      <nav role="navigation" class="wrapper pad-t-1-2 masthead-next unit xs-1 s-1 m-1-2 l-2-5  no-print">
+      <nav id="nav" tabindex="0" role="navigation" class="wrapper pad-t-1-2 masthead-next unit xs-1 s-1 m-1-2 l-2-5  no-print">
         <ul class="masthead-toolbar list-group-inline push-0">
           <li class="toolbar-progress"><a class="btn btn-nav-style" href="index.html">Home</a></li>
           <li><a class="btn btn-nav-style" href="#">Why Tappy?</a></li>
@@ -42,8 +52,8 @@
     </div>
   </header>
 
-  <main role="main">
-    <section class="grid">
+  <main id="main" tabindex="0" role="main">
+    <section class="grid" id="data" tabindex="0">
       <div class="wrapper">
         <h2 class="unit xs-1 s-1 m-1 l-1 text-center pad-t tera push-0">We Know The Data</h2>
         <img class="img-flex gutter-2 push" src="images/we-know-data-graph.png" alt="">
@@ -52,7 +62,7 @@
       </div>
     </section>
 
-    <section class="grid">
+    <section class="grid" id="pricing" tabindex="0">
       <div class="wrapper">
         <h2 class="unit xs-1 s-1 m-1 l-1 text-center pad-t tera">Flexible Pricing For You</h2>
 
@@ -185,7 +195,7 @@
       </div>
     </section>
 
-    <section class="grid">
+    <section class="grid" id="about" tabindex="0">
       <div class="wrapper">
         <h2 class="unit xs-1 s-1 m-1 l-1 text-center pad-t tera">About Us</h2>
         <img class="img-flex" src="images/about-us.png" alt="">
@@ -194,7 +204,7 @@
     </section>
   </main>
 
-  <footer role="contentinfo" class="center-content">
+  <footer id="footer" tabindex="0" role="contentinfo" class="center-content">
     <img class="footer-img pad-t" src="images/footer-tappy.png" alt="">
     <div class="text-footer center-content milli">
       <p class="push-1-2 bold">© 2020 Tappy, Inc.</p>
