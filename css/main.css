@@ -308,3 +308,24 @@ footer {
 .btn-continue {
   width: 100%;ß
 }
+
+.account-create {
+  font-weight: 400;
+}
+
+.bottom-border {
+  border-bottom: 5px solid #9b87ac;
+}
+
+.vert-align {
+  text-align: center;
+}
+
+.fixed-price-back {
+  background-color: #ddd;
+}
+
+td,
+th {
+  border: none;
+}
