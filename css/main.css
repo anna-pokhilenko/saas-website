@@ -125,7 +125,7 @@ figcaption {
   font-weight: 600;
   position: absolute;
   background-color: #ff854d;
-  top: 65%;
+  top: 70%;
   left: 50%;
   border: none;
   border-radius: 0;
@@ -202,6 +202,7 @@ footer {
     line-height: 4.125rem;
   }
 
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -213,6 +214,10 @@ footer {
   .img-small-screen {
     display: none;
     overflow: hidden;
+  }
+
+  .action {
+    top: 80%;
   }
 
 }
