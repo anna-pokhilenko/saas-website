@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <header class="">
+  <header role="banner">
     <div class="grid grid-middle gutter-1-2">
       <div class="unit [ xs-1 m-1-2 l-1-5 ]">
         <a class="logo" href="index.html">
@@ -20,7 +20,7 @@
         </a>
       </div>
 
-      <nav class="wrapper pad-t-1-2 masthead-next unit xs-1 s-1 m-1-2 l-2-5  no-print">
+      <nav role="navigation" class="wrapper pad-t-1-2 masthead-next unit xs-1 s-1 m-1-2 l-2-5  no-print">
         <ul class="masthead-toolbar list-group-inline push-0">
           <li class="toolbar-progress"><a class="btn btn-nav-style" href="index.html">Home</a></li>
           <li><a class="btn btn-nav-style" href="#">Why Tappy?</a></li>
@@ -42,7 +42,7 @@
     </div>
   </header>
 
-  <body>
+  <main role="main">
     <section class="grid">
       <div class="wrapper">
         <h2 class="unit xs-1 s-1 m-1 l-1 text-center pad-t tera push-0">We Know The Data</h2>
@@ -62,12 +62,13 @@
               <tr>
                 <th class="text-center" colspan="6">Fixed Price</th>
               </tr>
+
+              <tr>
+                <th colspan="2"></th>
+                <th class="text-center" colspan="2">Standard</th>
+                <th class="text-center" colspan="2">Pro</th>
+              </tr>
             </thead>
-            <tr>
-              <th colspan="2"></th>
-              <th class="text-center" colspan="2">Standard</th>
-              <th class="text-center" colspan="2">Pro</th>
-            </tr>
             <tbody>
               <tr>
                 <th class="text-center" colspan="2">Intuitive Tappy System</th>
@@ -191,26 +192,27 @@
         <p class="unit xs-1 s-1 m-1 l-1 text-center pad-t milli about-us max-length gutter-1-2">We are three best friends that decided to make Tappy start up in early 2010. We saw that the market grows and develops incredibly fast but the payment methods weren’t. Within a year we became the leaders on the POS market because of our dedication to what we are doing and our care for the customers we are working with.</p>
       </div>
     </section>
+  </main>
 
-    <footer class="center-content">
-      <img class="footer-img pad-t" src="images/footer-tappy.png" alt="">
-      <div class="text-footer center-content milli">
-        <p class="push-1-2 bold">© 2020 Tappy, Inc.</p>
-        <ul class="list-group-inline push-1-2">
-          <li class="gutter-1-2"><a href="#">Partners</a></li>
-          <li class="gutter-1-2"><a href="#">Privacy Policy</a></li>
-          <li class="gutter-1-2"><a href="#">Billing Policy </a></li>
-          <li class="gutter-1-2"><a href="#">Merchant User</a></li>
-          <li class="gutter-1-2"><a href="#">License</a></li>
-          <li class="gutter-1-2"><a href="#">Agreement</a></li>
-          <li class="gutter-1-2"><a href="#">Security</a></li>
-        </ul>
-        <p>Canadian Branch, Toronto, ON, Canada.</p>
-        <ul class="list-group-inline">
-          <li class="gutter-1-2"><a href="#"><img src="images/facebook-logo.png" alt=""></a></li>
-          <li class="gutter-1-2"><a href="#"><img src="images/instagram-logo.png" alt=""></a></li>
-        </ul>
-      </div>
-    </footer>
-  </body>
-  </html>
+  <footer role="contentinfo" class="center-content">
+    <img class="footer-img pad-t" src="images/footer-tappy.png" alt="">
+    <div class="text-footer center-content milli">
+      <p class="push-1-2 bold">© 2020 Tappy, Inc.</p>
+      <ul class="list-group-inline push-1-2">
+        <li class="gutter-1-2"><a href="#">Partners</a></li>
+        <li class="gutter-1-2"><a href="#">Privacy Policy</a></li>
+        <li class="gutter-1-2"><a href="#">Billing Policy </a></li>
+        <li class="gutter-1-2"><a href="#">Merchant User</a></li>
+        <li class="gutter-1-2"><a href="#">License</a></li>
+        <li class="gutter-1-2"><a href="#">Agreement</a></li>
+        <li class="gutter-1-2"><a href="#">Security</a></li>
+      </ul>
+      <p>Canadian Branch, Toronto, ON, Canada.</p>
+      <ul class="list-group-inline">
+        <li class="gutter-1-2"><a href="#"><img src="images/facebook-logo.png" alt=""></a></li>
+        <li class="gutter-1-2"><a href="#"><img src="images/instagram-logo.png" alt=""></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

@@ -57,7 +57,7 @@ figcaption {
 .pin-c {
   left: 58%;
   top: 40%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 
 .banner-content-any {
@@ -112,7 +112,6 @@ figcaption {
   left: 50%;
   width: 100%;
 }
-
 
 .banner-content-statement-why-tappy {
   color: #fff;
@@ -215,6 +214,7 @@ footer {
     display: none;
     overflow: hidden;
   }
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -222,6 +222,7 @@ footer {
   .content {
     width: 465px;
   }
+
   .l-table {
     display: table;
     vertical-align: middle;
@@ -247,7 +248,7 @@ footer {
 }
 
 .max-logo {
-  max-width:100px;
+  max-width: 100px;
 }
 
 .field {

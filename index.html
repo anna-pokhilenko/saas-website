@@ -12,7 +12,18 @@
 </head>
 <body>
 
-  <header>
+  <ul class="skip-links">
+    <li><a href="#banner">Jump to banner</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#main">Jump to main section</a></li>
+    <li><a href="#business">Jump to Tappy and Your Business section</a></li>
+    <li><a href="#got-you">Jump to We Got You section</a></li>
+    <li><a href="#all-for-you">Jump to It’s All For You section</a></li>
+    <li><a href="#feedback">Jump to Your Feedback Is Important section</a></li>
+    <li><a href="#footer">Jump to footer section</a></li>
+  </ul>
+
+  <header role="banner" id="banner" tabindex="0">
     <div class="grid grid-middle gutter-1-2">
       <div class="unit [ xs-1 m-1-2 l-1-5 ]">
         <a class="logo" href="index.html">
@@ -20,7 +31,7 @@
         </a>
       </div>
 
-      <nav class="wrapper pad-t-1-2 masthead-next unit xs-1 s-1 m-1-2 l-2-5 no-print">
+      <nav id="nav" tabindex="0" role="navigation" class="wrapper pad-t-1-2 masthead-next unit xs-1 s-1 m-1-2 l-2-5 no-print">
         <ul class="masthead-toolbar list-group-inline push-0">
           <li class="toolbar-progress"><a class="btn btn-nav-style" href="#">Home</a></li>
           <li><a class="btn btn-nav-style" href="tour.html">Why Tappy?</a></li>
@@ -29,141 +40,139 @@
       </nav>
     </div>
 
-      <div class="banner">
-        <img class="img-large-screen img-flex" src="images/banner-home-page.jpg" alt="">
-        <img class="img-small-screen img-flex" src="images/small-screen.jpg" alt="">
-        <div class="banner-content text-center center-content">
-          <div class="max-length center-content">
-            <img class="img-flex pin-c slogan" src="images/slogan.png" alt="">
-            <p class="banner-content-statement giga pin-c">Tappy isn’t about us, it’s about you.</p>
-            <a class="btn pin-c btn-ghost action milli" href="#">Get Started</a>
+    <div class="banner">
+      <img class="img-large-screen img-flex" src="images/banner-home-page.jpg" alt="">
+      <img class="img-small-screen img-flex" src="images/small-screen.jpg" alt="">
+      <div class="banner-content text-center center-content">
+        <div class="max-length center-content">
+          <img class="img-flex pin-c slogan" src="images/slogan.png" alt="">
+          <p class="banner-content-statement giga pin-c">Tappy isn’t about us, it’s about you.</p>
+          <a class="btn pin-c btn-ghost action milli" href="#">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main role="main" id="#main" tabindex="0">
+    <section class="grid business pad-t pad-b push-2" id="business" tabindex="0">
+      <div class="wrapper">
+        <h1 class="unit xs-1 s-1 m-1 l-1 text-center pad-t tera">Tappy & Your Business</h1>
+        <p class="unit xs-1 s-1 m-1-2 l-1-2 milli gutter">When you’re looking for the best small business point-of-sale (POS) system in Canada, it’s important to understand what sorts of tools you need to run and grow your business. Tappy is a great system for small business because it lets you process every sale securely and has the right software to help you take care of administrative tasks more efficiently.</p>
+        <p class="unit xs-1 s-1 m-1-2 l-1-2 milli gutter">By getting a new POS system like Tappy, you can be sure that it will provide you everything necessary. Tappy accepts all forms of payment including cash, credit cards, and mobile payments. We also provide all required software for our system for you to be able to also print receipts, store cash in cash drawers, and scan barcodes. The best experience starts with Tappy!</p>
+      </div>
+    </section>
+
+    <section class="wrapper" id="got-you" tabindex="0">
+      <h2 class="tera text-center center-content">Don’t Worry. <br> We Got Your Back</h2>
+
+      <div class="grid grid-stretch">
+
+        <div class="unit unit-content-distribute xs-1 s-1 m-1 l-1-3 text-center pad-t">
+          <div class="center-content center content-fill">
+            <img class="img-flex img-worry" src="images/tappy-disc.png" alt="">
+            <h3 class="giga not-bold text-center push-1-2">Free Trial</h3>
+            <p class="milli gutter text-center">No need to pay for our Tappy! Get it for free and enjoy our fast and easy-to-use model!</p>
+          </div>
+        </div>
+
+        <div class="unit unit-content-distribute xs-1 s-1 m-1 l-1-3 text-center pad-t">
+          <div class="center-content center content-fill">
+            <img class="img-flex img-worry" src="images/piggy.png" alt="">
+            <h3 class="giga not-bold text-center push-1-2">No Fees</h3>
+            <p class="milli gutter text-center">Absolutely no fees for the first free months of trial! Jump right into workflow and save more with us!</p>
+          </div>
+        </div>
+
+        <div class="unit unit-content-distribute xs-1 s-1 m-1 l-1-3 text-center pad-t">
+          <div class="center-content center content-fill">
+            <img class="img-flex img-worry" src="images/assist.png" alt="">
+            <h3 class="giga not-bold text-center push-1-2">Free Service</h3>
+            <p class="milli gutter text-center">Got question? Our 24/7 sport group will make sure all your questions answered and all your problems solved!</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="grid for-you push-2" id="all-for-you" tabindex="0">
+      <div class="wrapper">
+        <h2 class="unit xs-1 s-1 m-1 l-1 text-center pad-t tera push-2">It’s All For You</h2>
+        <div class="unit xs-1 s-1 m-1 l-1">
+
+          <div class="grid push">
+            <h3 class="unit xs-1 s-1 m-1-3 l-1-3 giga pad-r">Know your customers.</h3>
+            <p class="unit xs-1 s-1 m-2-3 l-2-3 milli pad-l pads">We are offering highly targeted rewards program with a branded customer-facing web-app to track points. Get some exiting rewards for your users and get to know them better yourself, so you can create automated campaigns via SMS and a drag-and-drop email builder. Rely on Tappy for all your POS + Loyalty needs, training and technical support, 24/7.</p>
+          </div>
+
+          <div class="grid push">
+            <p class="unit xs-1 s-1 m-2-3 l-2-3 milli pad-r">Doesn’t matter what you sell — we have the tools you need to keep your stock moving. We will help you centralize your purchasing and save time by ordering new stock directly from our system’s integrated vendor catalogs. From now on never run out of your best-sellers again. Get access to all the data you need to get old inventory off your shelves, fast.</p>
+            <h3 class="order-change unit xs-1 s-1 m-1-3 l-1-3 giga pad-l text-right">Do more with <br> your stock.</h3>
+          </div>
+
+          <div class="grid push">
+            <h3 class="unit xs-1 s-1 m-1-3 l-1-3 giga pad-r">Offer payment flexibility.</h3>
+            <p class="unit xs-1 s-1 m-2-3 l-2-3 milli pad-l pads">Everything is automatic and on us. Just process your payments, and we’ll take care of everything else. We are ahead of the other processors, who let you fend for yourself to meet PCI requirements. There’s no need to worry about it with us! We’ll always give you the extra benefits because we think the best things in life are supposed to be free.</p>
+          </div>
+
+          <div class="grid push">
+            <p class="unit xs-1 s-1 m-2-3 l-2-3 milli pad-r">Controlling your inventory can be challenging when you have just one store, and we don’t even need to mention it if you have several. Our Tappy POS, multi-store inventory gives you one place from which you purchase, receive and transfer stock for all your store locations. Our POS help you get closer to your customers, because we know how important the feedback is and how challenging it is to collect it!</p>
+            <h3 class="order-change unit xs-1 s-1 m-1-3 l-1-3 giga pad-l text-right">Grow your business.</h3>
           </div>
         </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section class="grid business pad-t pad-b push-2">
-        <div class="wrapper">
-          <h1 class="unit xs-1 s-1 m-1 l-1 text-center pad-t tera">Tappy & Your Business</h1>
-          <p class="unit xs-1 s-1 m-1-2 l-1-2 milli gutter">When you’re looking for the best small business point-of-sale (POS) system in Canada, it’s important to understand what sorts of tools you need to run and grow your business. Tappy is a great system for small business because it lets you process every sale securely and has the right software to help you take care of administrative tasks more efficiently.</p>
-          <p class="unit xs-1 s-1 m-1-2 l-1-2 milli gutter">By getting a new POS system like Tappy, you can be sure that it will provide you everything necessary. Tappy accepts all forms of payment including cash, credit cards, and mobile payments. We also provide all required software for our system for you to be able to also print receipts, store cash in cash drawers, and scan barcodes. The best experience starts with Tappy!</p>
-        </div>
-      </section>
+    <section class="grid" id="feedback" tabindex="0">
+      <div class="wrapper">
+        <h2 class="unit xs-1 s-1 m-1 l-1 pad-t text-center tera push-2">Your Feedback Is Important</h2>
 
-      <section class="wrapper">
-              <h2 class="tera text-center center-content">Don’t Worry. <br> We Got Your Back</h2>
-
-              <div class="grid grid-stretch">
-
-                <div class="unit unit-content-distribute xs-1 s-1 m-1 l-1-3 text-center pad-t">
-                  <div class="center-content center content-fill">
-                    <img class="img-flex img-worry" src="images/tappy-disc.png" alt="">
-                    <h3 class="giga not-bold text-center push-1-2">Free Trial</h3>
-                    <p class="milli gutter text-center">No need to pay for our Tappy! Get it for free and enjoy our fast and easy-to-use model!</p>
-                  </div>
-                </div>
-
-                <div class="unit unit-content-distribute xs-1 s-1 m-1 l-1-3 text-center pad-t">
-                  <div class="center-content center content-fill">
-                    <img class="img-flex img-worry" src="images/piggy.png" alt="">
-                    <h3 class="giga not-bold text-center push-1-2">No Fees</h3>
-                    <p class="milli gutter text-center">Absolutely no fees for the first free months of trial! Jump right into workflow and save more with us!</p>
-                  </div>
-                </div>
-
-                <div class="unit unit-content-distribute xs-1 s-1 m-1 l-1-3 text-center pad-t">
-                  <div class="center-content center content-fill">
-                    <img class="img-flex img-worry" src="images/assist.png" alt="">
-                    <h3 class="giga not-bold text-center push-1-2">Free Service</h3>
-                    <p class="milli gutter text-center">Got question? Our 24/7 sport group will make sure all your questions answered and all your problems solved!</p>
-                  </div>
-                </div>
-
-              </div>
-      </section>
-
-      <section class="grid for-you push-2">
-        <div class="wrapper">
-          <h2 class="unit xs-1 s-1 m-1 l-1 text-center pad-t tera push-2">It’s All For You</h2>
-          <div class="unit xs-1 s-1 m-1 l-1">
-
-            <div class="grid push">
-              <h3 class="unit xs-1 s-1 m-1-3 l-1-3 giga pad-r">Know your customers.</h3>
-              <p class="unit xs-1 s-1 m-2-3 l-2-3 milli pad-l pads">We are offering highly targeted rewards program with a branded customer-facing web-app to track points. Get some exiting rewards for your users and get to know them better yourself, so you can create automated campaigns via SMS and a drag-and-drop email builder. Rely on Tappy for all your POS + Loyalty needs, training and technical support, 24/7.</p>
-            </div>
-
-            <div class="grid push">
-                <p class="unit xs-1 s-1 m-2-3 l-2-3 milli pad-r">Doesn’t matter what you sell — we have the tools you need to keep your stock moving. We will help you centralize your purchasing and save time by ordering new stock directly from our system’s integrated vendor catalogs. From now on never run out of your best-sellers again. Get access to all the data you need to get old inventory off your shelves, fast.</p>
-              <h3 class="order-change unit xs-1 s-1 m-1-3 l-1-3 giga pad-l text-right">Do more with <br> your stock.</h3>
-            </div>
-
-              <div class="grid push">
-                <h3 class="unit xs-1 s-1 m-1-3 l-1-3 giga pad-r">Offer payment flexibility.</h3>
-                <p class="unit xs-1 s-1 m-2-3 l-2-3 milli pad-l pads">Everything is automatic and on us. Just process your payments, and we’ll take care of everything else. We are ahead of the other processors, who let you fend for yourself to meet PCI requirements. There’s no need to worry about it with us! We’ll always give you the extra benefits because we think the best things in life are supposed to be free.</p>
-              </div>
-
-              <div class="grid push">
-                  <p class="unit xs-1 s-1 m-2-3 l-2-3 milli pad-r">Controlling your inventory can be challenging when you have just one store, and we don’t even need to mention it if you have several. Our Tappy POS, multi-store inventory gives you one place from which you purchase, receive and transfer stock for all your store locations. Our POS help you get closer to your customers, because we know how important the feedback is and how challenging it is to collect it!</p>
-                <h3 class="order-change unit xs-1 s-1 m-1-3 l-1-3 giga pad-l text-right">Grow your business.</h3>
-              </div>
-            </div>
-          </div>
-      </section>
-
-      <section class="grid">
-        <div class="wrapper">
-          <h2 class="unit xs-1 s-1 m-1 l-1 pad-t text-center tera push-2">Your Feedback Is Important</h2>
-
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center">
-            <div class="center-content center content-fill">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center">
+          <div class="center-content center content-fill">
             <figure class="push-0">
               <img class="img-back img-flex" src="images/customer1-square-purple.png" alt="">
               <figcaption class="micro text-center">Christi, <span class="bold">Happy Yoga Boutique</span></figcaption>
             </figure>
             <p class="milli island text-center push-0">“As a small company with a wide <br> range of responsibilities & services <br> we want to provide, we rely on Tappy <br> to make our workflow better <br> and more effective.”</p>
-            </div>
           </div>
+        </div>
 
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center">
-            <div class="center-content center content-fill">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center">
+          <div class="center-content center content-fill">
             <figure class="push-0">
               <img class="img-back img-flex" src="images/customer2-square.png" alt="">
               <figcaption class="micro text-center">Andrew, <span class="bold">Our Local Little Shop</span></figcaption>
             </figure>
-            <p class="milli island text-center push-0">“Tappy has been a such a big help! <br> Very user friendly, lots of options <br> and integrations,  excellent <br> customer service!”</p>
-            </div>
+            <p class="milli island text-center push-0">“Tappy has been a such a big help! <br> Very user friendly, lots of options <br> and integrations, excellent <br> customer service!”</p>
           </div>
-          <div class="unit xs-1 s-1 m-1 l-1 push">
-            <div class="center-content center">
-              <a class=" btn milli btn-bottom" href="#">Get Started</a>
-            </div>
-          </div>
-
         </div>
-
-      </section>
-    </main>
-
-    <footer class="center-content">
-      <img class="footer-img pad-t" src="images/footer-tappy.png" alt="">
-      <div class="text-footer center-content milli">
-        <p class="push-1-2 bold">© 2020 Tappy, Inc.</p>
-        <ul class="list-group-inline push-1-2">
-          <li class="gutter-1-2"><a href="#">Partners</a></li>
-          <li class="gutter-1-2"><a href="#">Privacy Policy</a></li>
-          <li class="gutter-1-2"><a href="#">Billing Policy </a></li>
-          <li class="gutter-1-2"><a href="#">Merchant User</a></li>
-          <li class="gutter-1-2"><a href="#">License</a></li>
-          <li class="gutter-1-2"><a href="#">Agreement</a></li>
-          <li class="gutter-1-2"><a href="#">Security</a></li>
-        </ul>
-        <p>Canadian Branch, Toronto, ON, Canada.</p>
-        <ul class="list-group-inline">
-          <li class="gutter-1-2"><a href="#"><img src="images/facebook-logo.png" alt=""></a></li>
-          <li class="gutter-1-2"><a href="#"><img src="images/instagram-logo.png" alt=""></a></li>
-        </ul>
+        <div class="unit xs-1 s-1 m-1 l-1 push">
+          <div class="center-content center">
+            <a class=" btn milli btn-bottom" href="#">Get Started</a>
+          </div>
+        </div>
       </div>
-    </footer>
-  </body>
-  </html>
+    </section>
+  </main>
+
+  <footer id="footer" tabindex="0" role="contentinfo" class="center-content">
+    <img class="footer-img pad-t" src="images/footer-tappy.png" alt="">
+    <div class="text-footer center-content milli">
+      <p class="push-1-2 bold">© 2020 Tappy, Inc.</p>
+      <ul class="list-group-inline push-1-2">
+        <li class="gutter-1-2"><a href="#">Partners</a></li>
+        <li class="gutter-1-2"><a href="#">Privacy Policy</a></li>
+        <li class="gutter-1-2"><a href="#">Billing Policy </a></li>
+        <li class="gutter-1-2"><a href="#">Merchant User</a></li>
+        <li class="gutter-1-2"><a href="#">License</a></li>
+        <li class="gutter-1-2"><a href="#">Agreement</a></li>
+        <li class="gutter-1-2"><a href="#">Security</a></li>
+      </ul>
+      <p>Canadian Branch, Toronto, ON, Canada.</p>
+      <ul class="list-group-inline">
+        <li class="gutter-1-2"><a href="#"><img src="images/facebook-logo.png" alt=""></a></li>
+        <li class="gutter-1-2"><a href="#"><img src="images/instagram-logo.png" alt=""></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
