@@ -140,6 +140,10 @@ figcaption {
   width: 34%;
 }
 
+.logo-sign-in {
+  width: 15%;
+}
+
 .business {
   background-color: #a1a1a1;
 }
@@ -281,4 +285,27 @@ footer {
 
 .text-footer {
   position: absolute;
+}
+
+.center-t {
+  vertical-align: middle;
+  text-align: center;
+  background-color: #9b87ac;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .space-right {
+    padding-right: .5em;
+  }
+
+  .space-left {
+    padding-left: .5em;
+  }
+
+}
+
+.btn-continue {
+  width: 100%;
+  text-align: center;
 }
