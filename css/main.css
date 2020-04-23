@@ -380,3 +380,7 @@ fieldset {
 .light {
   font-weight: lighter;
 }
+
+.bottom-style-links {
+  color: #000;
+}
