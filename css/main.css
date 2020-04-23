@@ -212,6 +212,18 @@ footer {
     left: 3%;
   }
 
+  .pricing-order-btn {
+    order: -1;
+  }
+
+  .change-bottom {
+    margin-bottom: 0;
+  }
+
+  .change-bottom-2 {
+    margin-bottom: 3rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
