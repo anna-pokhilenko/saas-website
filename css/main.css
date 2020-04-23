@@ -54,7 +54,25 @@ figcaption {
   text-align: center;
 }
 
+.pin-c-slogan {
+  left: 54%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
 .pin-c {
+  left: 54%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.pin-c-button {
+  left: 54%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.pin-c-about-you {
   left: 54%;
   top: 40%;
   transform: translate(-50%, -50%);
@@ -222,6 +240,18 @@ footer {
 
   .change-bottom-2 {
     margin-bottom: 3rem;
+  }
+
+  .pin-c-slogan {
+    left: 60%;
+  }
+
+  .pin-c-button {
+    top: 65%;
+  }
+
+  .pin-c-about-you {
+    top: 55%;
   }
 
 }
